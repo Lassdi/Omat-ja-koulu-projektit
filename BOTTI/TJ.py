@@ -7,7 +7,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
-TOKEN = "MTEwMzI4Mjg0NDc4NjI0NTY2Mw.GR0BGR.f01XQjgJLr_Ei-rmMwyGiz4D5ipBpjXjK0g994"
+TOKEN = ""
 
 today = dt.date.today()
 target = dt.date(2023,7,31)
